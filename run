@@ -1,0 +1,4 @@
+#!/bin/bash
+project=$(pwd | rev | cut -d'/' -f1 | rev)
+
+mono "$project"/bin/Debug/"$project".exe
