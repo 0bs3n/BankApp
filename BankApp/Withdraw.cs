@@ -38,10 +38,10 @@ namespace BankApp
                     var withdrawal = 
                         new Transactions("w", data.AccountNo, wa, DateTime.Now);
                     be.Transactions.InsertOnSubmit(withdrawal);
+                    be.SubmitChanges();
+                    Close();
                 }
 
-                be.SubmitChanges();
-                Close();
 
             }
 

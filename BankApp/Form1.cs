@@ -25,18 +25,21 @@ namespace BankApp
                     select Customer);
             if (data.ToArray().Length == 0)
             {
-                lblResponse.Text = "Account does not exist!";
+                lblWarn.Text = "Account does not exist!";
                 return false;
             } 
 
-            return (data.Single().Password == password);
+            return data.Single().Password == password;
 
         }
 
         private void btnSignIn_Click(object sender, EventArgs e)
         {
+            lblResponse.Text = "";
+            lblWarn.Text = "";
+
             if (!isValid(txtUserName.Text, txtPass.Text))
-                lblResponse.Text = "Account does not exist!";
+                lblResponse.Text = "Invalid username or password";
             else
             {
                 var be = new Banking();

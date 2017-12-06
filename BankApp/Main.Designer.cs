@@ -46,7 +46,7 @@
             // 
             // btnAccountSum
             // 
-            this.btnAccountSum.Location = new System.Drawing.Point(77, 174);
+            this.btnAccountSum.Location = new System.Drawing.Point(300, 20);
             this.btnAccountSum.Name = "btnAccountSum";
             this.btnAccountSum.Size = new System.Drawing.Size(75, 39);
             this.btnAccountSum.TabIndex = 2;
@@ -56,7 +56,7 @@
             // 
             // btnWithdraw
             // 
-            this.btnWithdraw.Location = new System.Drawing.Point(188, 174);
+            this.btnWithdraw.Location = new System.Drawing.Point(300, 70);
             this.btnWithdraw.Name = "btnWithdraw";
             this.btnWithdraw.Size = new System.Drawing.Size(75, 39);
             this.btnWithdraw.TabIndex = 3;
@@ -66,7 +66,7 @@
             // 
             // btnDeposit
             // 
-            this.btnDeposit.Location = new System.Drawing.Point(131, 230);
+            this.btnDeposit.Location = new System.Drawing.Point(300, 120);
             this.btnDeposit.Name = "btnDeposit";
             this.btnDeposit.Size = new System.Drawing.Size(75, 39);
             this.btnDeposit.TabIndex = 4;

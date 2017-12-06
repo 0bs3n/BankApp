@@ -54,6 +54,7 @@ namespace BankApp
             dataGridView1.BackgroundColor = Color.White;
             dataGridView1.RowHeadersDefaultCellStyle.BackColor = Color.White;
             dataGridView1.ColumnHeadersDefaultCellStyle.BackColor = Color.White;
+            dataGridView1.DefaultCellStyle.ForeColor = Color.Black;
             // 
             // AccountSummary
             // 

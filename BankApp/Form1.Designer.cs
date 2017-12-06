@@ -34,6 +34,8 @@
             this.lblUserName = new System.Windows.Forms.Label();
             this.lblPass = new System.Windows.Forms.Label();
             this.lblResponse = new System.Windows.Forms.Label();
+            this.lblWarn = new System.Windows.Forms.Label();
+            this.lblTitle = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnSignIn
@@ -85,6 +87,27 @@
             this.lblResponse.Name = "lblResponse";
             this.lblResponse.Size = new System.Drawing.Size(0, 13);
             this.lblResponse.TabIndex = 5;
+            this.lblResponse.Text = "";
+            //
+            // lblWarn
+            //
+            this.lblWarn.AutoSize = true;
+            this.lblWarn.Location = new System.Drawing.Point(169, 280);
+            this.lblWarn.Name = "lblWarn";
+            this.lblWarn.Size = new System.Drawing.Size(0, 13);
+            this.lblWarn.TabIndex = 6;
+            this.lblWarn.ForeColor = System.Drawing.Color.Red;
+            this.lblWarn.Text = "";
+            //
+            // lblTitle
+            //
+            this.lblTitle.AutoSize = true;
+            this.lblTitle.Location = new System.Drawing.Point(100, 10);
+            this.lblTitle.Name = "lblWarn";
+            this.lblTitle.Size = new System.Drawing.Size(0, 13);
+            this.lblTitle.TabIndex = 6;
+            this.lblTitle.Font = new System.Drawing.Font("Arial", 24, System.Drawing.FontStyle.Bold);
+            this.lblTitle.Text = "Bank of The World";
             // 
             // Form1
             // 
@@ -97,6 +120,8 @@
             this.Controls.Add(this.txtPass);
             this.Controls.Add(this.txtUserName);
             this.Controls.Add(this.btnSignIn);
+            this.Controls.Add(this.lblWarn);
+            this.Controls.Add(this.lblTitle);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -112,6 +137,8 @@
         private System.Windows.Forms.Label lblUserName;
         private System.Windows.Forms.Label lblPass;
         private System.Windows.Forms.Label lblResponse;
+        private System.Windows.Forms.Label lblWarn;
+        private System.Windows.Forms.Label lblTitle;
     }
 }
 
